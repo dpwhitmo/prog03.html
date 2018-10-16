@@ -8,5 +8,5 @@ p{outline-color: black;}
 p{text-align: left;}
 table{border-color: blue;}
 table{background-color: red;}
-table{width: 40%; margin-left: 30%; margin-right: 30%;}
+table{width: 40%; margin-left: 0%; margin-right: 70%;}
 td{border-style: solid; border-color: black;}
