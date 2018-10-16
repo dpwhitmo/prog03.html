@@ -2,17 +2,15 @@
 <body>
   <h1> Hockey </h1>
   <header>
-    <p>Each Quarters added for the Total points in the game</p>
+    <p>Each period added for the Total points at the end of the game</p>
   </header>
   
   <form oninput = "x.value = parseInt(a.value)+parseInt(b.value); y.value = parseInt(c.value)+parseInt(d.value);">
     
     <fieldset>
       
-    <table border = "2">
-      
       <tr>
-        <td>Team</td><td>1st quarter</td><td>2nd quarter</td><td>3rd quarter</td><td>Total</td>
+        <td>Team</td><td>1st Period</td><td>2nd Period</td><td>3rd Period</td><td>Total</td>
       </tr>
       
       <form action="/action_page.php">
@@ -37,8 +35,8 @@
       <tr>
        
           <td>Team Two</td>
-          <td><input type = "number" size = "5" id = "t1" value = "0"></td>
-          <td><input type = "number" size = "5" id = "t2" value = "0"></td>
+          <td><input type = "number" size = "6.3" id = "t1" value = "0"></td>
+          <td><input type = "number" size = "6.3" id = "t2" value = "0"></td>
           <td><input type = "number" size = "5" id = "t3" value = "0"></td>
           <td><input type = "number" size = "5" id = "t4" value = "0"></td>                                                         
           <td><output name = "n" for "o t">
@@ -46,6 +44,9 @@
       </tr>
             
     </table>
+                                          
   </form>
+                                          
 </body>
+                                          
 </html>    
