@@ -1,6 +1,20 @@
-<h1> Hockey </h1>
-
-<form action="/action_page.php">
+<html>
+<body>
+  <header>
+    <p>Each Quarters added for the Total points in the game</p>
+  </header>
+  
+  <form oninput = "x.value = parseInt(a.value)+parseInt(b.value); y.value = parseInt(c.value)+parseInt(d.value);">
+    
+    <fieldset>
+      
+    <table border = "2">
+      
+      <tr>
+        <td>Team</td><td>1st half</td><td>2nd half</td><td>Total</td>
+      </tr>
+      
+      <form action="/action_page.php">
   <fieldset>
     <legend>Team Namelegend>
     Team 1:<br>
@@ -10,9 +24,23 @@
     <input type="submit" value="Submit">
   </fieldset>
 </form>
-  
-  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
-  <input type="range" id="a" value="50">100
-  +<input type="number" id="b" value="50">
-  =<output name="x" for="a b"></output>
-</form>
+      <tr>
+          <td>Team Ones Name</td>
+          <td><input type = "number" size = "5" id = "a" value = "0"></td>
+          <td><input type = "number" size = "5" id = "b" value = "0"></td>
+          <td><output name = "x" for "a b">
+        
+      </tr>
+      <tr>
+       
+          <td>Team 2</td>
+          <td><input type = "number" size = "5" id = "p1" value = "0"></td>
+          <td><input type = "number" size = "5" id = "p2" value = "0"></td>
+          <td><output name = "n" for "o t">
+        </fieldset>
+      </tr>
+            
+    </table>
+  </form>
+</body>
+</html>    
