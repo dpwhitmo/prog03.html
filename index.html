@@ -8,7 +8,6 @@
     <p>Each Quarters added for the Total points in the game</p>
   </header>
   
-  <form oninput = "x.value = parseInt(a.value)+parseInt(b.value); y.value = parseInt(c.value)+parseInt(d.value);">
     
     <fieldset>
       
@@ -43,7 +42,10 @@
           <td><input type = "number" size = "5" id = "t2" value = "0"></td>
           <td><input type = "number" size = "5" id = "t3" value = "0"></td>                                                        
           <td><output name = "t" for "t1 t2 t3">
-        </fieldset>
+        
+        <form oninput = "o.value = parseInt(o1.value)+parseInt(o2.value)+parseInt(o3.value); t.value = parseInt(t1.value)+parseInt(t2.value)+parseInt(t3.value);">
+                                         
+      </fieldset>
       </tr>
             
     </table>
