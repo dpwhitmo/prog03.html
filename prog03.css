@@ -1,0 +1,12 @@
+body{background-color: White;}
+h1{color: Red;}
+h1{font-family: courier new;}
+h1{letter-spacing: 4.2px;}
+h1{text-align: left;}
+p{outline-style: solid;}
+p{outline-color: black;}
+p{text-align: left;}
+table{border-color: blue;}
+table{background-color: red;}
+table{width: 40%; margin-left: 30%; margin-right: 30%;}
+td{border-style: solid; border-color: black;}
