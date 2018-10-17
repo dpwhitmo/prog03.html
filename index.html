@@ -19,22 +19,24 @@
       <tr>
         <td>Team</td><td>1st Period</td><td>2nd Period</td><td>3rd Period</td><td>Total</td>
       </tr>
-      <form oninput = "o.value = parseInt(o1.value)+parseInt(o2.value)+parseInt(o3.value); e.value = parseInt(a.value)+parseInt(b.value)+parseInt(c.value);">
-      <tr>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value) ; 
+    y.value=parseInt(d.value)+parseInt(e.value)+parseInt(f.value)">      
+        
+    <tr>
           <td>Team One </td>
-          <td><input type = "number" size = "5" id = "o" value = "0"></td>
-          <td><input type = "number" size = "5" id = "t" value = "0"></td>
-          <td><input type = "number" size = "5" id = "r" value = "0"></td>
-          <td><output name = "f" for "o t r">
+          <td><input type="number" id="a" value="0"></td>
+          <td><input type="number" id="b" value="0"></td>
+          <td><input type="number" id="c" value="0"></td>
+          <td><output name="x" for="a b c">0</output></td>
         
       </tr>
       <tr>
        
           <td>Team Two</td>
-          <td><input type = "number" size = "5" id = "a" value = "0"></td>
-          <td><input type = "number" size = "5" id = "b" value = "0"></td>
-          <td><input type = "number" size = "5" id = "c" value = "0"></td>                                                        
-          <td><output name = "e" for "a b c">0</output></td>
+          <td><input type="number" id="d" value="0"></td>
+          <td><input type="number" id="e" value="0"></td>
+          <td><input type="number" id="f" value="0"></td>
+          <td><output name="y" for="d e f">0</output></td>
         
         
                                          
