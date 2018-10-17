@@ -1,50 +1,39 @@
 <html>
-  <head>
-  <link rel = "stylesheet" type= "text/css" href ="prog03.css" />
-  </head>
-<body>
-  
-  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value) ; 
-    y.value=parseInt(d.value)+parseInt(e.value)+parseInt(f.value)"> 
-    
-  <fieldset>
-    
-  <h1> Hockey </h1>
-    
-  <header>
-    <p>Each Period added for the Total points in the game</p>
-  </header>
-  
-      
-    <table border = "2">
-      
-      <tr>
-        <td>Team</td><td>1st Period</td><td>2nd Period</td><td>3rd Period</td><td>Total</td>
-      </tr>
-     
-        
-    <tr>
-          <td>Team One </td>
-          <td><input type="number" id="a" value="0"></td>
-          <td><input type="number" id="b" value="0"></td>
-          <td><input type="number" id="c" value="0"></td>
-          <td><output name="x" for="a b c">0</output></td>
-        
-      </tr>
-      <tr>
-       
-          <td>Team Two</td>
-          <td><input type="number" id="d" value="0"></td>
-          <td><input type="number" id="e" value="0"></td>
-          <td><input type="number" id="f" value="0"></td>
-          <td><output name="y" for="d e f">0</output></td>
-        
-        
-                                         
-      </fieldset>
-      </tr>
-            
-    </table>
-  </form>
-</body>
-</html> 
+   <head>
+      <link rel = "stylesheet" type= "text/css" href ="prog03.css" />
+   </head>
+   <body>
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value) ; 
+         y.value=parseInt(d.value)+parseInt(e.value)+parseInt(f.value)">
+         <fieldset>
+            <h1> Hockey </h1>
+            <header>
+               <p>Each Period added for the Total points in the game</p>
+            </header>
+            <table border = "2">
+               <tr>
+                  <td>Team</td>
+                  <td>1st Period</td>
+                  <td>2nd Period</td>
+                  <td>3rd Period</td>
+                  <td>Total</td>
+               </tr>
+               <tr>
+                  <td>Team One </td>
+                  <td><input type="number" id="a" value="0"></td>
+                  <td><input type="number" id="b" value="0"></td>
+                  <td><input type="number" id="c" value="0"></td>
+                  <td><output name="x" for="a b c">0</output></td>
+               </tr>
+               <tr>
+                  <td>Team Two</td>
+                  <td><input type="number" id="d" value="0"></td>
+                  <td><input type="number" id="e" value="0"></td>
+                  <td><input type="number" id="f" value="0"></td>
+                  <td><output name="y" for="d e f">0</output></td>
+         </fieldset>
+         </tr>
+         </table>
+      </form>
+   </body>
+</html>
